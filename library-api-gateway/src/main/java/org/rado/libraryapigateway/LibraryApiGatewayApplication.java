@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class LibraryApiGatewayApplication extends SpringBootServletInitializer {
+public class LibraryApiGatewayApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(LibraryApiGatewayApplication.class, args);
