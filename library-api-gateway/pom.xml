@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>library-api-gateway</name>
     <description>library-api-gateway</description>
+    <packaging>war</packaging>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2020.0.3</spring-cloud.version>
@@ -57,6 +58,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>library-api-gateway</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
